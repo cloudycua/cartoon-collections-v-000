@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   list = []
   names.each.with_index(1).map { |dwarf, index| list << "#{index}. #{dwarf}" }
-  puts list
+  
 end
 
 def summon_captain_planet(planeteer_calls)
