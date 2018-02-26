@@ -6,8 +6,10 @@ def roll_call_dwarves(names)
   puts list
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  new_planeteer_calls = []
+  planeteer_calls.each {|planeteer| new_planeteer_calls << {"#{planeteer.capitalize}!"}
+  return new_planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
