@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   list = []
-  names.each.with_index(1).map do |dwarf, index|
+  names.each_with_index(1).map do |dwarf, index|
     list << "#{index}. *#{dwarf}"
   end
   puts list
