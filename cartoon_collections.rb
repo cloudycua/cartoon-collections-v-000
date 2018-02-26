@@ -1,6 +1,5 @@
 def roll_call_dwarves(names)
-  list = []
-  list << names.each_with_index.map {|name, index| puts "#{index} #{name}" }
+  names.each_with_index.map {|name, index| puts "#{index} #{name}" }
 end
 
 def summon_captain_planet# code an argument here
