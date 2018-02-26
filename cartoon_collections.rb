@@ -9,7 +9,6 @@ end
 def summon_captain_planet(planeteer_calls)
   new_planeteer_calls = []
   planeteer_calls.each { |planeteer|new_planeteer_calls << "#{planeteer.capitalize}!" }
-  end
 end
 
 def long_planeteer_calls# code an argument here
