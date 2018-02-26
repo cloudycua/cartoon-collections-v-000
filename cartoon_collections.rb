@@ -1,8 +1,8 @@
 def roll_call_dwarves(names)
   names.each.with_index(1).map do |dwarf, index|
-    "#{index}. *#{dwarf}"
+    list << "#{index}. *#{dwarf}"
   end
-  names.each {|dwarf| puts dwarf}
+  puts list
 end
 
 def summon_captain_planet# code an argument here
