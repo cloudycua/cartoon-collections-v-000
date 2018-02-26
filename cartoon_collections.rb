@@ -8,7 +8,9 @@ end
 
 def summon_captain_planet(planeteer_calls)
   new_planeteer_calls = []
-  planeteer_calls.each { |planeteer| new_planeteer_calls << "#{planeteer.capitalize}!"
+  planeteer_calls.each do |planeteer|
+    new_planeteer_calls << "#{planeteer.capitalize}!"
+  end
 #  return new_planeteer_calls
 end
 
